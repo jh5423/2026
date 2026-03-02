@@ -63,6 +63,19 @@ no_side_nav: true
 
 <div class="callout neutral">
   <div class="title">📝 생기부 기록</div>
+  <div class="form-actions">
+  <a class="cta" href="https://docs.google.com/spreadsheets/d/1pU5iE_xXcGHBP4pW1P3INpBr9Dg_Qh-8_RWLl8TGf2s/edit?usp=sharing" target="_blank" rel="noopener">
+    🧩 1인 1역 신청 바로가기
+  </a>
+</div>
+
+<div class="qr-box">
+  <div class="qr-title">📷 QR로 신청하기</div>
+  <a href="https://docs.google.com/spreadsheets/d/1pU5iE_xXcGHBP4pW1P3INpBr9Dg_Qh-8_RWLl8TGf2s/edit?usp=sharing" target="_blank" rel="noopener">
+    <img class="qr" src="{{ '/assets/img/one-role-signup-qr.png' | relative_url }}" alt="1인 1역 신청 QR 코드" />
+  </a>
+  <div class="qr-note">QR을 스캔하거나 이미지를 클릭하면 신청 시트가 열립니다.</div>
+</div>
   <ul>
     <li>성실하게 역할을 수행한 학생은 <b>생활기록부</b>에 기재 가능</li>
   </ul>
