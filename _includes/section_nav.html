@@ -1,0 +1,10 @@
+{% if page.sections %}
+<div class="sec-nav-box">
+  <div class="sec-nav-title">바로가기</div>
+  <div class="sec-nav-links">
+    {% for s in page.sections %}
+      <a class="sec-nav-link" href="#{{ s.id }}">{{ s.label }}</a>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
