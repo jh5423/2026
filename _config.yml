@@ -1,0 +1,17 @@
+title: "박지현"
+email: "jhmath54@gmail.com"
+description: "풍문고등학교 2026 · 3-2 담"
+lang: "ko-KR"
+
+# ✅ 중요:
+# - 사용자 페이지: https://username.github.io  -> baseurl: ""
+# - 프로젝트 페이지: https://username.github.io/2-26 -> baseurl: "/2026"
+baseurl: "/2026"
+url: "https://jh5423.github.io"
+
+theme: minima
+markdown: kramdown
+permalink: pretty
+
+sass:
+  style: compressed
