@@ -441,3 +441,18 @@ details > *:not(summary){ margin-top: 8px; color: var(--muted); }
   color: var(--muted);
   font-size: 13px;
 }
+
+.motto-box{
+  text-align:center;
+}
+.motto-line{
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: -.2px;
+  margin: 2px 0 8px;
+  color: var(--text);
+}
+.motto-desc{
+  text-align:left;
+  margin: 0;
+}
