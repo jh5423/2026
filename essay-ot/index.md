@@ -2,9 +2,8 @@
 layout: default
 title: "논술 OT"
 subtitle: "3학년 1학기 · 독서 + 감상 기록"
+no_side_nav: true
 sections:
-  - id: quick
-    label: "요약"
   - id: intro
     label: "수업 소개"
   - id: flow
@@ -26,7 +25,13 @@ sections:
   </ul>
 </div>
 
-<div id="quick"></div>
+<div class="jump">
+  <a class="chip" href="#intro">📚 수업 소개</a>
+  <a class="chip" href="#flow">🕐 수업 흐름</a>
+  <a class="chip" href="#choose">📖 책 선택</a>
+  <a class="chip" href="#review">📝 감상평</a>
+  <a class="chip" href="#form">✏️ 제출 폼</a>
+</div>
 
 ## 📚 수업 소개 {#intro}
 
@@ -35,8 +40,6 @@ sections:
 | 📖 자유로운 독서 | 장르 제한 없이 스스로 선택하여 읽기 |
 | ✏️ 감상평 작성 | 매 수업마다 양식 1장 분량으로 생각 기록 |
 | 💬 정답 없는 수업 | 옳고 그름 없음 — 솔직한 생각이 최고의 답 |
-
----
 
 ## 🕐 수업 흐름(1학기) {#flow}
 
@@ -48,16 +51,12 @@ sections:
 | 기말고사 이후 | 감상평 모음(포트폴리오) 최종 제출 |
 | (수시) 발표 | 읽은 책 소개, 인상 깊었던 내용 간단 발표 |
 
----
+## 📖 책 선택 방법 {#choose}
 
-## 📚 책 선택 방법 {#choose}
-
-- 📖 **장르 제한 없음**: 소설/에세이/시집/과학/인문 등 모두 가능
+- 📚 **장르 제한 없음**: 소설/에세이/시집/과학/인문 등 모두 가능
 - ✅ **완독 목표**: 가능하면 한 권을 끝까지 읽기
 - 🔄 **중간 변경 가능**: 맞지 않으면 선생님과 상의 후 변경
 - 🗣 **추천 요청 가능**: 선택이 어렵다면 선생님께 추천 요청
-
----
 
 ## 📝 감상평 작성 {#review}
 
@@ -69,8 +68,6 @@ sections:
     <li>잘 쓴 글보다 <b>진솔한 글</b>이 더 좋은 감상평</li>
   </ul>
 </div>
-
----
 
 ## ✏️ 감상평 작성 폼 {#form}
 
