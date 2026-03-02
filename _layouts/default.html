@@ -50,8 +50,10 @@
         </div>
       {% endif %}
 
-      <div class="page-layout">
-        {% if page.sections %}
+      {% assign show_side_nav = page.sections and page.no_side_nav != true %}
+
+      <div class="page-layout {% if show_side_nav %}has-nav{% else %}no-nav{% endif %}">
+        {% if show_side_nav %}
           <aside class="sec-nav">
             {% include section_nav.html %}
           </aside>
