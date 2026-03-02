@@ -2,9 +2,8 @@
 layout: default
 title: "학급 OT"
 subtitle: "2-3반 · 학급 운영 · 출결 · 역할 · 평가"
+no_side_nav: true
 sections:
-  - id: quick
-    label: "요약"
   - id: day
     label: "3/3 일정"
   - id: rules
@@ -28,7 +27,14 @@ sections:
   </ul>
 </div>
 
-<div id="quick"></div>
+<div class="jump">
+  <a class="chip" href="#day">📅 3/3 일정</a>
+  <a class="chip" href="#rules">📋 학급 규칙</a>
+  <a class="chip" href="#roles">🌟 1인 1역</a>
+  <a class="chip" href="#peer">🏁 동료 평가</a>
+  <a class="chip" href="#morning">☀️ 아침의 기적</a>
+  <a class="chip" href="#attendance">🧾 출결 안내</a>
+</div>
 
 ## 📅 3월 3일 일정 {#day}
 
@@ -40,8 +46,6 @@ sections:
 ### 📄 기초 조사
 - 자기소개서 작성 → 제출
 
----
-
 ## 📋 학급 규칙 {#rules}
 
 | No. | 항목 | 기준/설명 |
@@ -51,8 +55,6 @@ sections:
 | 3 | 🪑 의자 올리기 | 귀가 전 의자 올리기(청소 편의) |
 | 4 | 👤 1인 1역 | 학급 구성원 모두 역할 담당(별도 안내) |
 | 5 | 🏫 조회·종례 | 시간에 자리 착석, 성실 참여 |
-
----
 
 ## 🌟 1인 1역 {#roles}
 
@@ -64,8 +66,6 @@ sections:
 </div>
 
 - 역할 목록/배정 방식은 여기에 추가(예: 주번, 환경, 학습, 소통, 자료, 도서 등)
-
----
 
 ## 🏁 동료 평가 (총 15점) {#peer}
 
@@ -83,17 +83,13 @@ sections:
   </ul>
 </div>
 
----
-
 ## ☀️ 아침의 기적 (1학기) {#morning}
 
 ### 🌿 자기주도 프로젝트
 - 매일 아침 스스로 목표를 설정하고 실천하는 자기주도 학습 프로젝트
 - 꾸준히 참여한 학생의 활동 내용은 <b>생기부 반영</b> 가능
 
----
-
-## 📋 출결 안내 {#attendance}
+## 🧾 출결 안내 {#attendance}
 
 | 항목 | 안내 |
 |---|---|
